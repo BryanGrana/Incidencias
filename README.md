@@ -1,7 +1,8 @@
 # Aplicación de Incidencias
 
 ## Descripción
-Esta aplicación permite a los usuarios gestionar incidencias mediante la lectura de códigos QR, la búsqueda de máquinas en una base de datos externa a través de una API, y la visualización de incidencias activas asociadas al DNI del usuario. Además, incluye un menú de ayuda para facilitar el uso de la aplicación.
+Esta aplicación permite a los usuarios gestionar incidencias mediante la lectura de códigos QR, la búsqueda de máquinas en una base de datos externa a través de una API, y la visualización de incidencias activas asociadas al DNI del usuario. Además, incluye un **drawer** para la navegación y un menú de ayuda para facilitar el uso de la aplicación. El DNI ingresado se guarda temporalmente, incluso después de cerrar la aplicación, solo se almacena el último DNI escrito.
+
 
 ## Funcionalidades:
 - **Escaneo de QR**: Escanea un código QR para obtener el código de una máquina.

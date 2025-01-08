@@ -17,7 +17,7 @@ Esta aplicación permite a los usuarios gestionar incidencias mediante la lectur
   incidencias/
   ├── lib/
   │   ├── widgets/
-  │   │   ├── **Widgets principales** (Aquí estarán todos los widgets utilizados en la aplicación)
+  │   │   ├── **Widgets principales** (Aquí estarán todos los widgets utilizados en la aplicación, cada uno en su respectiva carpeta)
   ├── pubspec.yaml
   ```
 `pubspec.yaml`

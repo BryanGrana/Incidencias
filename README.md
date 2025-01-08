@@ -45,7 +45,8 @@ Aquí se encuentran los widgets y componentes principales de la aplicación, com
 - `Ver Incidencias Activas`: Accede a las incidencias activas asociadas a tu DNI, consultando la API.
 - `Menú de Ayuda`: Accede al menú de ayuda desde el drawer para obtener soporte y documentación adicional.
 
-##Notas Adicionales
+## Notas Adicionales
 - Esta aplicación utiliza la librería `http` para realizar las peticiones a la API externa.
 - El sistema de navegación está basado en `Flutter`, facilitando una experiencia de usuario fluida e intuitiva.
 - Utiliza `qr_code_scanner` para la funcionalidad de escaneo de QR.
+- Cuidado con las imágenes: Asegúrate de crear el directorio `assets/imagenes` y de añadir todas las imágenes utilizadas, el directorio debe estar en la raíz de la carpeta del proyecto. Si se utilizan imágenes externas, verifica que están correctamente añadidas al proyecto y cumplan con los permisos de uso.

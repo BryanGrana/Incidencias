@@ -50,3 +50,5 @@ Aquí se encuentran los widgets y componentes principales de la aplicación, com
 - El sistema de navegación está basado en `Flutter`, facilitando una experiencia de usuario fluida e intuitiva.
 - Utiliza `qr_code_scanner` para la funcionalidad de escaneo de QR.
 - Cuidado con las imágenes: Asegúrate de crear el directorio `assets/imagenes` y de añadir todas las imágenes utilizadas, el directorio debe estar en la raíz de la carpeta del proyecto. Si se utilizan imágenes externas, verifica que están correctamente añadidas al proyecto y cumplan con los permisos de uso.
+- `La base de datos` (o al menos las `peticiones de API`) tiene que ser igual que los models de la carpeta `models`.
+- Tener cuidado con los `tipos de datos` de la API a la hora de recogerlos en los models y con el `token` e `IP's de conexión`.
